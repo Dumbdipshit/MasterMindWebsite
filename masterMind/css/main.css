@@ -8,16 +8,17 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: white;
 }
 
 .game-board-container{
     display: flex;
+    padding: 0 0.5vw;
     flex-wrap: wrap;
     flex-direction: row;
     width: 30vw;
     justify-content: center;
     background-color: #2a3335;
-    height: 31vw;
     border-radius: 0.5vw;
     outline-color: #1b2529;
     outline-width: 0.3vw;
@@ -26,6 +27,7 @@ body{
     top: -1vw;
     padding-top: 2vw;
     gap: 1vw;
+    padding-bottom: 1.5vw;
 }
 
 .game-tile{
@@ -34,4 +36,5 @@ body{
     background-color: #1b2529;
     border-radius: 0.5vw;
     box-shadow: 0vw 0.3vw 0vw 0vw #0a1313;
+    font-size: 1vw;
 }
